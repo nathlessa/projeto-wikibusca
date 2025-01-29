@@ -1,0 +1,192 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    
+}
+
+a:visited {
+    color: rgb(139, 86, 139); 
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    height: 30px;
+    margin-left: 13.3%;
+    
+}
+
+.search {
+    flex: 1;
+    border: none;
+    padding: 4px;
+    
+}
+
+.material-symbols-outlined {
+    opacity: 0.5;
+}
+
+
+.search-button {
+    height: 32px;
+    width: 250p
+}
+
+hr {
+    margin: -10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+h1, h2 {
+    font-weight: 500;
+}
+
+
+.para-saber-mais {
+    margin-top: 24px;
+}
+
+.conteudo {
+    margin-top: 24px;
+    padding: 0 0 0 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.bar {
+    background-color: #f9f9fb;
+    padding: 15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.main {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.logo {
+    margin: 8px;
+}
+
+.texto-canto {
+    display: flex;
+}
+
+.fig-imagem-reciclagem {
+    margin-top: 0;
+    margin-right: 0;
+    border: 0.5px rgb(236, 236, 236) solid;
+    border-radius: 10%;
+}
+
+.imagem-reciclagem {
+    border-radius: 10%;
+}
+
+figcaption {
+    font-size: 12px;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+figure {
+    text-align: center;
+}
+
+thead {
+    border: 5px solid black;
+}
+
+.item-list {
+    list-style-type: initial;
+
+}
+
+.blue-item {
+    color: blue;
+}
+
+.red-item {
+    color: red;
+}
+
+.yellow-item {
+    color: yellow;
+    background-color: black;
+}
+
+.black-item {
+    color: black;
+}
+
+.orange-item {
+    color: orange;
+}
+
+.white-item {
+    color: white;
+    background-color: black;
+}
+.purple-item {
+    color: purple;
+}
+
+.brown-item {
+    color: brown;
+}
+
+.gray-item {
+    color: gray;
+}
+
+.ref-list {
+    padding-left: 0;
+}
+
+.footer {
+    padding-left: 36px;
+    font-size: 12px;
+    
+}
