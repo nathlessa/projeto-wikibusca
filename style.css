@@ -150,6 +150,7 @@ thead {
 
 .red-item {
     color: red;
+    background-color: black;
 }
 
 .yellow-item {
@@ -163,6 +164,7 @@ thead {
 
 .orange-item {
     color: orange;
+    background-color: black;
 }
 
 .white-item {
@@ -179,6 +181,7 @@ thead {
 
 .gray-item {
     color: gray;
+    background-color: black;
 }
 
 .ref-list {
